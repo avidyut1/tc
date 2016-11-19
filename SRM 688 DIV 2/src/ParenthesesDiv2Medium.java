@@ -6,21 +6,38 @@ public class ParenthesesDiv2Medium {
 	
 	public int[] correct(String s) {
 		Vector<Integer> ans = new Vector<Integer>();
-		for (int i = 0; i < s.length() / 2; i++) {
-			if (s.charAt(i) != '(') {
-				ans.add(i);
+		int c = 0;
+		for (int i = 0; i < s.length(); i++) {
+			if(s.charAt(i) == '(') {
+				c++;
+			}
+			else {
+				c--;
+				if (c < 0) {
+					c = 1;
+					ans.add(i);
+				}
 			}
 		}
-		for (int i = s.length() / 2; i < s.length() ; i++) {
-			if (s.charAt(i) != ')') {
-				ans.add(i);
+		c = 0;
+		for (int i = s.length() - 1; i >= 0; i--) {
+			if(s.charAt(i) == ')') {
+				c++;
+			}
+			else {
+				c--;
+				if (c < 0) {
+					c = 1;
+					ans.add(i);
+				}
 			}
 		}
+		int ind = 0;
 		int res[] = new int[ans.size()];
-		int i = 0;
-		for (int val: ans) {
-			res[i++] = val;
+		for( int a : ans) {
+			res[ind++] = a;
 		}
+		System.out.println(ans);
 		return res;
 	}
 }
