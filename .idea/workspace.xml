@@ -23,42 +23,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DivFreed2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SRM 684 DIV 2/src/DivFreed2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="EqualSubstrings2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SRM 683 DIV 2/src/EqualSubstrings2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.7777777">
+            <state vertical-scroll-proportion="0.0">
               <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoveStonesEasy.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MoveStonesEasy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SRM 683 DIV 2/src/MoveStonesEasy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.925">
+            <state vertical-scroll-proportion="0.0">
               <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EqualSubstrings2Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SRM 683 DIV 2/test/EqualSubstrings2Test.java">
+      <file leaf-file-name="DNASequence.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SRM 682 DIV 2/src/DNASequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+            <state vertical-scroll-proportion="-10.0">
+              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopBiologist.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SRM 682 DIV 2/src/TopBiologist.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.625">
+              <caret line="60" column="162" selection-start-line="60" selection-start-column="162" selection-end-line="60" selection-end-column="162" />
+              <folding>
+                <element signature="e#190#198#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,6 +107,8 @@
         <option value="$PROJECT_DIR$/SRM 684 DIV 2/src/DivFreed2.java" />
         <option value="$PROJECT_DIR$/SRM 683 DIV 2/src/EqualSubstrings2.java" />
         <option value="$PROJECT_DIR$/SRM 683 DIV 2/src/MoveStonesEasy.java" />
+        <option value="$PROJECT_DIR$/SRM 682 DIV 2/src/DNASequence.java" />
+        <option value="$PROJECT_DIR$/SRM 682 DIV 2/src/TopBiologist.java" />
       </list>
     </option>
   </component>
@@ -151,7 +155,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -180,7 +186,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SRM 683 DIV 2" />
+              <option name="myItemId" value="SRM 682 DIV 2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -194,7 +200,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SRM 683 DIV 2" />
+              <option name="myItemId" value="SRM 682 DIV 2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -204,8 +210,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -219,28 +223,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.MoveStonesEasyTest">
-    <configuration default="false" name="DivFreed2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="SRM 684 DIV 2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DivFreed2Test" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea -Xmx256m" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.TopBiologistTest">
     <configuration default="false" name="EqualSubstrings2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="SRM 683 DIV 2" />
@@ -251,27 +234,6 @@
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea -Xmx256m" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="EqualSubstrings2Test.test0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="SRM 683 DIV 2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EqualSubstrings2Test" />
-      <option name="METHOD_NAME" value="test0" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
@@ -311,6 +273,48 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MoveStonesEasyTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Xmx256m" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="DNASequenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="SRM 682 DIV 2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DNASequenceTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Xmx256m" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TopBiologistTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="SRM 682 DIV 2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TopBiologistTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea -Xmx256m" />
@@ -578,19 +582,18 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.DivFreed2Test" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.EqualSubstrings2Test" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.EqualSubstrings2Test.test0" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.EqualSubstrings2Test.test4" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MoveStonesEasyTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.EqualSubstrings2Test" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.EqualSubstrings2Test.test4" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MoveStonesEasyTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DNASequenceTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TopBiologistTest" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MoveStonesEasyTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.EqualSubstrings2Test" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.EqualSubstrings2Test.test4" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.EqualSubstrings2Test.test0" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DivFreed2Test" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TopBiologistTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DNASequenceTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MoveStonesEasyTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.EqualSubstrings2Test" />
       </list>
     </recent_temporary>
   </component>
@@ -634,7 +637,9 @@
       <workItem from="1479801602442" duration="996000" />
       <workItem from="1479986432263" duration="344000" />
       <workItem from="1479990465085" duration="84000" />
-      <workItem from="1479991832400" duration="1119000" />
+      <workItem from="1479991832400" duration="1165000" />
+      <workItem from="1479995672533" duration="51000" />
+      <workItem from="1480009241010" duration="1932000" />
     </task>
     <servers />
   </component>
@@ -644,7 +649,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39139000" />
+    <option name="totallyTimeSpent" value="41168000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -726,20 +731,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SRM 697 DIV 2/src/TriangleMaking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SRM 697 DIV 2/src/DivisibleSetDiv2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SRM 696 DIV 2/src/Ropestring.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1059,13 +1050,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SRM 683 DIV 2/test/EqualSubstrings2Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.6172249">
           <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
           <folding />
         </state>
@@ -1073,7 +1063,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SRM 683 DIV 2/src/EqualSubstrings2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.7777777">
+        <state vertical-scroll-proportion="0.0">
           <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
           <folding />
         </state>
@@ -1081,9 +1071,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SRM 683 DIV 2/src/MoveStonesEasy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.925">
+        <state vertical-scroll-proportion="0.0">
           <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRM 682 DIV 2/src/DNASequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRM 682 DIV 2/src/TopBiologist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.625">
+          <caret line="60" column="162" selection-start-line="60" selection-start-column="162" selection-end-line="60" selection-end-column="162" />
+          <folding>
+            <element signature="e#190#198#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
