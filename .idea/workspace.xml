@@ -22,24 +22,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LiveConcert.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SRM 669 DIV 2/src/LiveConcert.java">
+      <file leaf-file-name="IsItASquare.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SRM 668 DIV 2/src/IsItASquare.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+            <state relative-caret-position="405">
+              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
               <folding>
-                <element signature="e#188#205#0" expanded="true" />
+                <element signature="e#1064#1065#0" expanded="true" />
+                <element signature="e#1140#1141#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CombiningSlimes.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SRM 669 DIV 2/src/CombiningSlimes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -61,9 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SRM 697 DIV 2/src/TriangleMaking.java" />
-        <option value="$PROJECT_DIR$/SRM 696 DIV 2/src/Ropestring.java" />
-        <option value="$PROJECT_DIR$/SRM 696 DIV 2/src/Arrfix.java" />
         <option value="$PROJECT_DIR$/SRM 696 DIV 1/src/Gperm.java" />
         <option value="$PROJECT_DIR$/SRM 695 DIV 2/src/BearNSWE.java" />
         <option value="$PROJECT_DIR$/SRM 695 DIV 2/src/BearPasswordAny.java" />
@@ -112,6 +100,9 @@
         <option value="$PROJECT_DIR$/SRM 670 DIV 2/src/Cdgame.java" />
         <option value="$PROJECT_DIR$/SRM 669 DIV 2/src/LiveConcert.java" />
         <option value="$PROJECT_DIR$/SRM 669 DIV 2/src/CombiningSlimes.java" />
+        <option value="$PROJECT_DIR$/SRM 668 DIV 2/src/VerySecureEncryption.java" />
+        <option value="$PROJECT_DIR$/SRM 668 DIV 2/src/IsItASquare.java" />
+        <option value="$PROJECT_DIR$/SRM 668 DIV 2/test/IsItASquareTest.java" />
       </list>
     </option>
   </component>
@@ -190,91 +181,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CombiningSlimesTest">
-    <configuration default="false" name="BearDartsDiv2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="SRM 671 DIV 2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BearDartsDiv2Test" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea -Xmx256m" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="CdgameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="SRM 670 DIV 2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CdgameTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea -Xmx256m" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="DrbalanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="SRM 670 DIV 2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DrbalanceTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea -Xmx256m" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="LiveConcertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="SRM 669 DIV 2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LiveConcertTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea -Xmx256m" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.IsItASquareTest.test6">
     <configuration default="false" name="CombiningSlimesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="SRM 669 DIV 2" />
@@ -285,6 +192,90 @@
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea -Xmx256m" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="VerySecureEncryptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="SRM 668 DIV 2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="VerySecureEncryptionTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Xmx256m" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="IsItASquareTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="SRM 668 DIV 2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IsItASquareTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Xmx256m" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="IsItASquareTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="SRM 668 DIV 2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IsItASquareTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="IsItASquareTest.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="SRM 668 DIV 2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IsItASquareTest" />
+      <option name="METHOD_NAME" value="test6" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
@@ -772,19 +763,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.BearDartsDiv2Test" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CdgameTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.DrbalanceTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.LiveConcertTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CombiningSlimesTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CombiningSlimesTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.VerySecureEncryptionTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.IsItASquareTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.IsItASquareTest.test1" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.IsItASquareTest.test6" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CombiningSlimesTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.LiveConcertTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DrbalanceTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CdgameTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.BearDartsDiv2Test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.IsItASquareTest.test6" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.IsItASquareTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.IsItASquareTest.test1" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.VerySecureEncryptionTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CombiningSlimesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -854,44 +845,44 @@
       <workItem from="1480567985404" duration="62000" />
       <workItem from="1480570616024" duration="169000" />
       <workItem from="1480570937101" duration="104000" />
-      <workItem from="1480571131080" duration="1041000" />
+      <workItem from="1480571131080" duration="2897000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CdgameTest - 2016.11.29 at 13h 13m 17s.xml">
-      <configuration name="CdgameTest" configurationId="JUnit" />
+    <history-entry file="IsItASquareTest - 2016.12.01 at 11h 57m 07s.xml">
+      <configuration name="IsItASquareTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CdgameTest - 2016.12.01 at 11h 10m 19s.xml">
-      <configuration name="CdgameTest" configurationId="JUnit" />
+    <history-entry file="IsItASquareTest - 2016.12.01 at 11h 59m 03s.xml">
+      <configuration name="IsItASquareTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CombiningSlimesTest - 2016.12.01 at 11h 24m 24s.xml">
-      <configuration name="CombiningSlimesTest" configurationId="JUnit" />
+    <history-entry file="IsItASquareTest - 2016.12.01 at 11h 59m 25s.xml">
+      <configuration name="IsItASquareTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CombiningSlimesTest - 2016.12.01 at 11h 34m 12s.xml">
-      <configuration name="CombiningSlimesTest" configurationId="JUnit" />
+    <history-entry file="IsItASquareTest - 2016.12.01 at 11h 59m 37s.xml">
+      <configuration name="IsItASquareTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DrbalanceTest - 2016.11.29 at 13h 13m 56s.xml">
-      <configuration name="DrbalanceTest" configurationId="JUnit" />
+    <history-entry file="IsItASquareTest_test1 - 2016.12.01 at 11h 56m 54s.xml">
+      <configuration name="IsItASquareTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DrbalanceTest - 2016.11.29 at 13h 29m 33s.xml">
-      <configuration name="DrbalanceTest" configurationId="JUnit" />
+    <history-entry file="IsItASquareTest_test1 - 2016.12.01 at 11h 57m 00s.xml">
+      <configuration name="IsItASquareTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DrbalanceTest - 2016.12.01 at 11h 10m 36s.xml">
-      <configuration name="DrbalanceTest" configurationId="JUnit" />
+    <history-entry file="IsItASquareTest_test6 - 2016.12.01 at 12h 01m 12s.xml">
+      <configuration name="IsItASquareTest.test6" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LiveConcertTest - 2016.12.01 at 11h 18m 48s.xml">
-      <configuration name="LiveConcertTest" configurationId="JUnit" />
+    <history-entry file="IsItASquareTest_test6 - 2016.12.01 at 12h 02m 56s.xml">
+      <configuration name="IsItASquareTest.test6" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LiveConcertTest - 2016.12.01 at 11h 23m 57s.xml">
-      <configuration name="LiveConcertTest" configurationId="JUnit" />
+    <history-entry file="IsItASquareTest_test6 - 2016.12.01 at 12h 03m 13s.xml">
+      <configuration name="IsItASquareTest.test6" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlusonegameTest - 2016.11.07 at 22h 38m 47s.xml">
-      <configuration name="PlusonegameTest" configurationId="JUnit" />
+    <history-entry file="IsItASquareTest_test6 - 2016.12.01 at 12h 03m 27s.xml">
+      <configuration name="IsItASquareTest.test6" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65548000" />
+    <option name="totallyTimeSpent" value="67404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -904,7 +895,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41357028" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41357028" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -986,27 +977,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SRM 684 DIV 2/src/Istr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SRM 684 DIV 2/test/IstrTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SRM 684 DIV 2/src/DivFreed2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SRM 683 DIV 2/test/EqualSubstrings2Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1328,6 +1298,33 @@
         <state relative-caret-position="315">
           <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRM 668 DIV 2/src/VerySecureEncryption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRM 668 DIV 2/test/IsItASquareTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRM 668 DIV 2/src/IsItASquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding>
+            <element signature="e#1064#1065#0" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
