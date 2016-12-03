@@ -21,16 +21,23 @@
     <favorites_list name="TopCoder" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="IsItASquare.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SRM 668 DIV 2/src/IsItASquare.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DevuAndGame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SRM 666 DIV 2/src/DevuAndGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-              <folding>
-                <element signature="e#1064#1065#0" expanded="true" />
-                <element signature="e#1140#1141#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodString.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SRM 666 DIV 2/src/GoodString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -52,10 +59,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SRM 696 DIV 1/src/Gperm.java" />
-        <option value="$PROJECT_DIR$/SRM 695 DIV 2/src/BearNSWE.java" />
-        <option value="$PROJECT_DIR$/SRM 695 DIV 2/src/BearPasswordAny.java" />
-        <option value="$PROJECT_DIR$/SRM 692 DIV 2/src/PriorityQueue.java" />
         <option value="$PROJECT_DIR$/SRM 690 DIV 2/src/DoubleString.java" />
         <option value="$PROJECT_DIR$/SRM 690 DIV 2/src/GerrymanderEasy.java" />
         <option value="$PROJECT_DIR$/SRM 689 DIV 2/src/SimilarUserDetection.java" />
@@ -103,6 +106,10 @@
         <option value="$PROJECT_DIR$/SRM 668 DIV 2/src/VerySecureEncryption.java" />
         <option value="$PROJECT_DIR$/SRM 668 DIV 2/src/IsItASquare.java" />
         <option value="$PROJECT_DIR$/SRM 668 DIV 2/test/IsItASquareTest.java" />
+        <option value="$PROJECT_DIR$/SRM 667 DIV 2/src/PointDistance.java" />
+        <option value="$PROJECT_DIR$/SRM 667 DIV 2/src/OrderOfOperationsDiv2.java" />
+        <option value="$PROJECT_DIR$/SRM 666 DIV 2/src/DevuAndGame.java" />
+        <option value="$PROJECT_DIR$/SRM 666 DIV 2/src/GoodString.java" />
       </list>
     </option>
   </component>
@@ -149,12 +156,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane />
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -181,14 +188,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IsItASquareTest.test6">
-    <configuration default="false" name="CombiningSlimesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GoodStringTest">
+    <configuration default="false" name="OrderOfOperationsDiv2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="SRM 669 DIV 2" />
+      <module name="SRM 667 DIV 2" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CombiningSlimesTest" />
+      <option name="MAIN_CLASS_NAME" value="OrderOfOperationsDiv2Test" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea -Xmx256m" />
@@ -203,13 +210,13 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="VerySecureEncryptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="PointDistanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="SRM 668 DIV 2" />
+      <module name="SRM 667 DIV 2" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VerySecureEncryptionTest" />
+      <option name="MAIN_CLASS_NAME" value="PointDistanceTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea -Xmx256m" />
@@ -224,34 +231,13 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="IsItASquareTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="OrderOfOperationsDiv2Test.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="SRM 668 DIV 2" />
+      <module name="SRM 667 DIV 2" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="IsItASquareTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea -Xmx256m" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="IsItASquareTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="SRM 668 DIV 2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="IsItASquareTest" />
+      <option name="MAIN_CLASS_NAME" value="OrderOfOperationsDiv2Test" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -266,16 +252,37 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="IsItASquareTest.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="DevuAndGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="SRM 668 DIV 2" />
+      <module name="SRM 666 DIV 2" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="IsItASquareTest" />
-      <option name="METHOD_NAME" value="test6" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="MAIN_CLASS_NAME" value="DevuAndGameTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Xmx256m" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="GoodStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="SRM 666 DIV 2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GoodStringTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Xmx256m" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
@@ -763,19 +770,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CombiningSlimesTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.VerySecureEncryptionTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.IsItASquareTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.IsItASquareTest.test1" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.IsItASquareTest.test6" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.OrderOfOperationsDiv2Test" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PointDistanceTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.OrderOfOperationsDiv2Test.test1" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DevuAndGameTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.GoodStringTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.IsItASquareTest.test6" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.IsItASquareTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.IsItASquareTest.test1" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.VerySecureEncryptionTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CombiningSlimesTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.GoodStringTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DevuAndGameTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.OrderOfOperationsDiv2Test" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PointDistanceTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.OrderOfOperationsDiv2Test.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -846,43 +853,47 @@
       <workItem from="1480570616024" duration="169000" />
       <workItem from="1480570937101" duration="104000" />
       <workItem from="1480571131080" duration="2897000" />
+      <workItem from="1480602902735" duration="135000" />
+      <workItem from="1480664594720" duration="1782000" />
+      <workItem from="1480769896780" duration="32000" />
+      <workItem from="1480773186209" duration="836000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IsItASquareTest - 2016.12.01 at 11h 57m 07s.xml">
-      <configuration name="IsItASquareTest" configurationId="JUnit" />
+    <history-entry file="DevuAndGameTest - 2016.12.03 at 19h 51m 50s.xml">
+      <configuration name="DevuAndGameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IsItASquareTest - 2016.12.01 at 11h 59m 03s.xml">
-      <configuration name="IsItASquareTest" configurationId="JUnit" />
+    <history-entry file="DevuAndGameTest - 2016.12.03 at 19h 57m 03s.xml">
+      <configuration name="DevuAndGameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IsItASquareTest - 2016.12.01 at 11h 59m 25s.xml">
-      <configuration name="IsItASquareTest" configurationId="JUnit" />
+    <history-entry file="GoodStringTest - 2016.12.03 at 19h 57m 49s.xml">
+      <configuration name="GoodStringTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IsItASquareTest - 2016.12.01 at 11h 59m 37s.xml">
-      <configuration name="IsItASquareTest" configurationId="JUnit" />
+    <history-entry file="GoodStringTest - 2016.12.03 at 20h 00m 17s.xml">
+      <configuration name="GoodStringTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IsItASquareTest_test1 - 2016.12.01 at 11h 56m 54s.xml">
-      <configuration name="IsItASquareTest.test1" configurationId="JUnit" />
+    <history-entry file="GoodStringTest - 2016.12.03 at 20h 00m 56s.xml">
+      <configuration name="GoodStringTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IsItASquareTest_test1 - 2016.12.01 at 11h 57m 00s.xml">
-      <configuration name="IsItASquareTest.test1" configurationId="JUnit" />
+    <history-entry file="OrderOfOperationsDiv2Test - 2016.12.03 at 19h 24m 53s.xml">
+      <configuration name="OrderOfOperationsDiv2Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IsItASquareTest_test6 - 2016.12.01 at 12h 01m 12s.xml">
-      <configuration name="IsItASquareTest.test6" configurationId="JUnit" />
+    <history-entry file="OrderOfOperationsDiv2Test_test1 - 2016.12.03 at 18h 28m 41s.xml">
+      <configuration name="OrderOfOperationsDiv2Test.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IsItASquareTest_test6 - 2016.12.01 at 12h 02m 56s.xml">
-      <configuration name="IsItASquareTest.test6" configurationId="JUnit" />
+    <history-entry file="PointDistanceTest - 2016.12.02 at 13h 16m 48s.xml">
+      <configuration name="PointDistanceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IsItASquareTest_test6 - 2016.12.01 at 12h 03m 13s.xml">
-      <configuration name="IsItASquareTest.test6" configurationId="JUnit" />
+    <history-entry file="PointDistanceTest - 2016.12.02 at 13h 21m 28s.xml">
+      <configuration name="PointDistanceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IsItASquareTest_test6 - 2016.12.01 at 12h 03m 27s.xml">
-      <configuration name="IsItASquareTest.test6" configurationId="JUnit" />
+    <history-entry file="PointDistanceTest - 2016.12.03 at 19h 24m 49s.xml">
+      <configuration name="PointDistanceTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67404000" />
+    <option name="totallyTimeSpent" value="70189000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -895,7 +906,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41357028" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41357028" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -977,49 +988,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SRM 683 DIV 2/test/EqualSubstrings2Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SRM 683 DIV 2/src/EqualSubstrings2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SRM 683 DIV 2/src/MoveStonesEasy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SRM 682 DIV 2/src/DNASequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SRM 682 DIV 2/src/TopBiologist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="60" column="162" selection-start-line="60" selection-start-column="162" selection-end-line="60" selection-end-column="162" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SRM 681 DIV 2/src/ExplodingRobots.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SRM 681 DIV 2/src/CoinFlipsDiv2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1287,9 +1255,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-          <folding>
-            <element signature="e#188#205#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1297,7 +1262,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1305,7 +1269,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1313,7 +1276,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1321,10 +1283,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-          <folding>
-            <element signature="e#1064#1065#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRM 667 DIV 2/src/OrderOfOperationsDiv2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRM 667 DIV 2/src/PointDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRM 667 DIV 2/test/OrderOfOperationsDiv2Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRM 666 DIV 2/src/DevuAndGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRM 666 DIV 2/test/GoodStringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRM 666 DIV 2/src/GoodString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
