@@ -22,21 +22,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ABBA.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SRM 663 DIV 2/src/ABBA.java">
+      <file leaf-file-name="ExactTreeEasy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SRM 662 DIV 2/src/ExactTreeEasy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            <state relative-caret-position="255">
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ABBATest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SRM 663 DIV 2/test/ABBATest.java">
+      <file leaf-file-name="Hexspeak.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SRM 662 DIV 2/src/Hexspeak.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExactTreeEasyTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SRM 662 DIV 2/test/ExactTreeEasyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -59,8 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Single Round Match 702 Sponsored By BAH/src/GridSort.java" />
-        <option value="$PROJECT_DIR$/SRM 688 DIV 2/src/ParenthesesDiv2Medium.java" />
         <option value="$PROJECT_DIR$/SRM 687 DIV 2/src/Quorum.java" />
         <option value="$PROJECT_DIR$/SRM 687 DIV 2/src/Quacking.java" />
         <option value="$PROJECT_DIR$/SRM 686 DIV 2/src/TreeAndVertex.java" />
@@ -110,6 +118,8 @@
         <option value="$PROJECT_DIR$/SRM 664 DIV 2/src/BearPlaysDiv2.java" />
         <option value="$PROJECT_DIR$/SRM 663 DIV 2/src/ChessFloor.java" />
         <option value="$PROJECT_DIR$/SRM 663 DIV 2/src/ABBA.java" />
+        <option value="$PROJECT_DIR$/SRM 662 DIV 2/test/ExactTreeEasyTest.java" />
+        <option value="$PROJECT_DIR$/SRM 662 DIV 2/src/ExactTreeEasy.java" />
       </list>
     </option>
   </component>
@@ -188,56 +198,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ABBATest">
-    <configuration default="false" name="BearCheatsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="SRM 664 DIV 2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BearCheatsTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea -Xmx256m" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="BearPlaysDiv2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="SRM 664 DIV 2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BearPlaysDiv2Test" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea -Xmx256m" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ChessFloorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HexspeakTest">
+    <configuration default="false" name="ABBATest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="SRM 663 DIV 2" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ChessFloorTest" />
+      <option name="MAIN_CLASS_NAME" value="ABBATest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea -Xmx256m" />
@@ -252,14 +220,35 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ChessFloorTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ExactTreeEasyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="SRM 663 DIV 2" />
+      <module name="SRM 662 DIV 2" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ChessFloorTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="ExactTreeEasyTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Xmx256m" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExactTreeEasyTest.test0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="SRM 662 DIV 2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExactTreeEasyTest" />
+      <option name="METHOD_NAME" value="test0" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -273,13 +262,34 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ABBATest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ExactTreeEasyTest.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="SRM 663 DIV 2" />
+      <module name="SRM 662 DIV 2" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ABBATest" />
+      <option name="MAIN_CLASS_NAME" value="ExactTreeEasyTest" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="HexspeakTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="SRM 662 DIV 2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HexspeakTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea -Xmx256m" />
@@ -770,18 +780,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.BearCheatsTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BearPlaysDiv2Test" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ChessFloorTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ChessFloorTest.test1" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ABBATest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ABBATest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ExactTreeEasyTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ExactTreeEasyTest.test0" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ExactTreeEasyTest.test5" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.HexspeakTest" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ABBATest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ChessFloorTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ChessFloorTest.test1" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BearPlaysDiv2Test" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.HexspeakTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ExactTreeEasyTest.test5" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ExactTreeEasyTest.test0" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ExactTreeEasyTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ABBATest" />
       </list>
     </recent_temporary>
   </component>
@@ -857,44 +868,44 @@
       <workItem from="1480769896780" duration="32000" />
       <workItem from="1480773186209" duration="5178000" />
       <workItem from="1480824950621" duration="1050000" />
-      <workItem from="1480826643176" duration="1010000" />
+      <workItem from="1480826643176" duration="3811000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ABBATest - 2016.12.04 at 10h 15m 54s.xml">
-      <configuration name="ABBATest" configurationId="JUnit" />
+    <history-entry file="ExactTreeEasyTest - 2016.12.04 at 10h 51m 52s.xml">
+      <configuration name="ExactTreeEasyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ABBATest - 2016.12.04 at 10h 22m 07s.xml">
-      <configuration name="ABBATest" configurationId="JUnit" />
+    <history-entry file="ExactTreeEasyTest - 2016.12.04 at 10h 54m 34s.xml">
+      <configuration name="ExactTreeEasyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ABBATest - 2016.12.04 at 10h 24m 10s.xml">
-      <configuration name="ABBATest" configurationId="JUnit" />
+    <history-entry file="ExactTreeEasyTest_test0 - 2016.12.04 at 10h 56m 46s.xml">
+      <configuration name="ExactTreeEasyTest.test0" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ABBATest - 2016.12.04 at 10h 27m 26s.xml">
-      <configuration name="ABBATest" configurationId="JUnit" />
+    <history-entry file="ExactTreeEasyTest_test0 - 2016.12.04 at 11h 01m 26s.xml">
+      <configuration name="ExactTreeEasyTest.test0" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ABBATest - 2016.12.04 at 10h 31m 26s.xml">
-      <configuration name="ABBATest" configurationId="JUnit" />
+    <history-entry file="ExactTreeEasyTest_test0 - 2016.12.04 at 11h 01m 34s.xml">
+      <configuration name="ExactTreeEasyTest.test0" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChessFloorTest - 2016.12.04 at 10h 15m 39s.xml">
-      <configuration name="ChessFloorTest" configurationId="JUnit" />
+    <history-entry file="ExactTreeEasyTest_test0 - 2016.12.04 at 11h 01m 40s.xml">
+      <configuration name="ExactTreeEasyTest.test0" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChessFloorTest_test1 - 2016.12.04 at 10h 04m 45s.xml">
-      <configuration name="ChessFloorTest.test1" configurationId="JUnit" />
+    <history-entry file="ExactTreeEasyTest_test5 - 2016.12.04 at 11h 04m 40s.xml">
+      <configuration name="ExactTreeEasyTest.test5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChessFloorTest_test1 - 2016.12.04 at 10h 05m 01s.xml">
-      <configuration name="ChessFloorTest.test1" configurationId="JUnit" />
+    <history-entry file="ExactTreeEasyTest_test5 - 2016.12.04 at 11h 05m 10s.xml">
+      <configuration name="ExactTreeEasyTest.test5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChessFloorTest_test1 - 2016.12.04 at 10h 05m 14s.xml">
-      <configuration name="ChessFloorTest.test1" configurationId="JUnit" />
+    <history-entry file="ExactTreeEasyTest_test5 - 2016.12.04 at 11h 23m 21s.xml">
+      <configuration name="ExactTreeEasyTest.test5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChessFloorTest_test1 - 2016.12.04 at 10h 05m 38s.xml">
-      <configuration name="ChessFloorTest.test1" configurationId="JUnit" />
+    <history-entry file="HexspeakTest - 2016.12.04 at 11h 29m 43s.xml">
+      <configuration name="HexspeakTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76591000" />
+    <option name="totallyTimeSpent" value="79392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -907,7 +918,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41276252" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41276252" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -981,8 +992,13 @@
           <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SRM 662 DIV 2/src/ExactTreeEasy.java</url>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="26" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -991,27 +1007,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SRM 678 DIV 2/test/AttackOfTheClonesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SRM 677 DIV 2/test/FourStringsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SRM 676 DIV 2/test/FarmvilleDiv2Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SRM 676 DIV 2/src/FarmvilleDiv2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1318,6 +1313,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SRM 663 DIV 2/src/ABBA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SRM 663 DIV 2/test/ABBATest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -1326,10 +1329,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SRM 663 DIV 2/src/ABBA.java">
+    <entry file="file://$PROJECT_DIR$/SRM 662 DIV 2/test/ExactTreeEasyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        <state relative-caret-position="63">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRM 662 DIV 2/src/ExactTreeEasy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRM 662 DIV 2/src/Hexspeak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
