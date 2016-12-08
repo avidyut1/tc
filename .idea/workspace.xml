@@ -22,10 +22,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BridgeBuildingDiv2.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BridgeBuildingDiv2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SRM 661 DIV 2/src/BridgeBuildingDiv2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
+            <state relative-caret-position="825">
               <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -34,11 +34,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BridgeBuildingDiv2Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SRM 661 DIV 2/test/BridgeBuildingDiv2Test.java">
+      <file leaf-file-name="PrivateD2party.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SRM 660 DIV 2/src/PrivateD2party.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="225">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cyclemin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SRM 660 DIV 2/src/Cyclemin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrivateD2partyTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SRM 660 DIV 2/test/PrivateD2partyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -61,7 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SRM 686 DIV 2/src/TreeAndVertex.java" />
         <option value="$PROJECT_DIR$/SRM 686 DIV 2/src/SegmentsAndPoints.java" />
         <option value="$PROJECT_DIR$/SRM 685 DIV 2/src/MultiplicationTable2Easy.java" />
         <option value="$PROJECT_DIR$/SRM 685 DIV 2/test/DoubleWeightsTest.java" />
@@ -112,6 +133,7 @@
         <option value="$PROJECT_DIR$/SRM 662 DIV 2/src/ExactTreeEasy.java" />
         <option value="$PROJECT_DIR$/SRM 661 DIV 2/src/FallingSand.java" />
         <option value="$PROJECT_DIR$/SRM 661 DIV 2/src/BridgeBuildingDiv2.java" />
+        <option value="$PROJECT_DIR$/SRM 660 DIV 2/src/PrivateD2party.java" />
       </list>
     </option>
   </component>
@@ -144,7 +166,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -157,14 +179,7 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
@@ -190,70 +205,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BridgeBuildingDiv2Test">
-    <configuration default="false" name="HexspeakTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="SRM 662 DIV 2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HexspeakTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea -Xmx256m" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="FallingSandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="SRM 661 DIV 2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FallingSandTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea -Xmx256m" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="FallingSandTest.test0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="SRM 661 DIV 2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FallingSandTest" />
-      <option name="METHOD_NAME" value="test0" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.PrivateD2partyTest">
     <configuration default="false" name="BridgeBuildingDiv2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="SRM 661 DIV 2" />
@@ -285,6 +237,69 @@
       <option name="METHOD_NAME" value="test0" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PrivateD2partyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="SRM 660 DIV 2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PrivateD2partyTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Xmx256m" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PrivateD2partyTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="SRM 660 DIV 2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PrivateD2partyTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CycleminTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="SRM 660 DIV 2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CycleminTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Xmx256m" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
@@ -772,19 +787,18 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.HexspeakTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FallingSandTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FallingSandTest.test0" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BridgeBuildingDiv2Test" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.BridgeBuildingDiv2Test.test0" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.BridgeBuildingDiv2Test" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BridgeBuildingDiv2Test.test0" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PrivateD2partyTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PrivateD2partyTest.test3" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CycleminTest" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BridgeBuildingDiv2Test" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BridgeBuildingDiv2Test.test0" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FallingSandTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FallingSandTest.test0" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.HexspeakTest" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PrivateD2partyTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CycleminTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PrivateD2partyTest.test3" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BridgeBuildingDiv2Test" />
       </list>
     </recent_temporary>
   </component>
@@ -862,43 +876,44 @@
       <workItem from="1480824950621" duration="1050000" />
       <workItem from="1480826643176" duration="3811000" />
       <workItem from="1481026068341" duration="2794000" />
+      <workItem from="1481216026847" duration="2673000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BridgeBuildingDiv2Test - 2016.12.06 at 18h 21m 35s.xml">
-      <configuration name="BridgeBuildingDiv2Test" configurationId="JUnit" />
+    <history-entry file="CycleminTest - 2016.12.08 at 23h 08m 34s.xml">
+      <configuration name="CycleminTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BridgeBuildingDiv2Test - 2016.12.06 at 18h 22m 34s.xml">
-      <configuration name="BridgeBuildingDiv2Test" configurationId="JUnit" />
+    <history-entry file="PrivateD2partyTest - 2016.12.08 at 23h 03m 27s.xml">
+      <configuration name="PrivateD2partyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BridgeBuildingDiv2Test - 2016.12.06 at 18h 23m 50s.xml">
-      <configuration name="BridgeBuildingDiv2Test" configurationId="JUnit" />
+    <history-entry file="PrivateD2partyTest - 2016.12.08 at 23h 07m 18s.xml">
+      <configuration name="PrivateD2partyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BridgeBuildingDiv2Test - 2016.12.06 at 18h 24m 57s.xml">
-      <configuration name="BridgeBuildingDiv2Test" configurationId="JUnit" />
+    <history-entry file="PrivateD2partyTest - 2016.12.08 at 23h 07m 54s.xml">
+      <configuration name="PrivateD2partyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BridgeBuildingDiv2Test - 2016.12.06 at 18h 26m 29s.xml">
-      <configuration name="BridgeBuildingDiv2Test" configurationId="JUnit" />
+    <history-entry file="PrivateD2partyTest - 2016.12.08 at 23h 11m 09s.xml">
+      <configuration name="PrivateD2partyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BridgeBuildingDiv2Test - 2016.12.06 at 18h 26m 55s.xml">
-      <configuration name="BridgeBuildingDiv2Test" configurationId="JUnit" />
+    <history-entry file="PrivateD2partyTest - 2016.12.08 at 23h 11m 52s.xml">
+      <configuration name="PrivateD2partyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BridgeBuildingDiv2Test - 2016.12.06 at 18h 28m 54s.xml">
-      <configuration name="BridgeBuildingDiv2Test" configurationId="JUnit" />
+    <history-entry file="PrivateD2partyTest - 2016.12.08 at 23h 17m 23s.xml">
+      <configuration name="PrivateD2partyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BridgeBuildingDiv2Test_test0 - 2016.12.06 at 18h 27m 09s.xml">
-      <configuration name="BridgeBuildingDiv2Test.test0" configurationId="JUnit" />
+    <history-entry file="PrivateD2partyTest_test3 - 2016.12.08 at 23h 03m 36s.xml">
+      <configuration name="PrivateD2partyTest.test3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BridgeBuildingDiv2Test_test0 - 2016.12.06 at 18h 27m 46s.xml">
-      <configuration name="BridgeBuildingDiv2Test.test0" configurationId="JUnit" />
+    <history-entry file="PrivateD2partyTest_test3 - 2016.12.08 at 23h 06m 08s.xml">
+      <configuration name="PrivateD2partyTest.test3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BridgeBuildingDiv2Test_test0 - 2016.12.06 at 18h 28m 37s.xml">
-      <configuration name="BridgeBuildingDiv2Test.test0" configurationId="JUnit" />
+    <history-entry file="PrivateD2partyTest_test3 - 2016.12.08 at 23h 07m 09s.xml">
+      <configuration name="PrivateD2partyTest.test3" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82186000" />
+    <option name="totallyTimeSpent" value="84859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="0" />
@@ -911,8 +926,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41276252" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41276252" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -952,8 +967,8 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41357028" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41276252" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2835218" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -991,7 +1006,7 @@
           <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="30" />
+      <option name="time" value="33" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1000,15 +1015,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.11.jar!/org/junit/Assert.class" />
-    <entry file="file://$PROJECT_DIR$/SRM 675 DIV 2/src/LengthUnitCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SRM 676 DIV 2/src/BoardEscapeDiv2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1308,7 +1314,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1316,7 +1321,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1324,7 +1328,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1332,7 +1335,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRM 661 DIV 2/src/BridgeBuildingDiv2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1344,10 +1356,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SRM 661 DIV 2/src/BridgeBuildingDiv2.java">
+    <entry file="file://$PROJECT_DIR$/SRM 660 DIV 2/test/PrivateD2partyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRM 660 DIV 2/src/Cyclemin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRM 660 DIV 2/src/PrivateD2party.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
