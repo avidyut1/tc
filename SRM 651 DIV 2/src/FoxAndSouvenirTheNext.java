@@ -2,45 +2,37 @@ import java.util.*;
 import java.math.*;
 import static java.lang.Math.*;
 
+//TODO
 public class FoxAndSouvenirTheNext {
 	
 	public String ableToSplit(int[] value) {
 		int sum = 0;
+        int n = value.length;
 		Arrays.sort(value);
-		if (value.length % 2 != 0) {
+        for (int i = 0; i < n; i++) {
+            sum += value[i];
+        }
+        if (sum % 2 != 0) {
+            return "Impossible";
+        }
+        if (value.length % 2 != 0) {
 			return "Impossible";
 		}
-		Queue<Integer> pqmin = new PriorityQueue<>();
-		Queue<Integer> pqmax = new PriorityQueue<>(100000, Collections.reverseOrder());
-		for (int i = 0; i < value.length; i++) {
-			sum += value[i];
-            pqmax.add(value[i]);
-			pqmin.add(value[i]);
-		}
-		Vector<Integer> setf = new Vector<>();
-        while(setf.size() != value.length / 2) {
-			if (pqmin.size() > 0) {
-				int min = pqmin.poll();
-				setf.add(min);
-				pqmax.remove(new Integer(min));
-				sum -= min;
-			}
-			if (setf.size() == value.length / 2)
-				break;
-			if (pqmax.size() > 0) {
-				int max = pqmax.poll();
-				setf.add(max);
-				pqmin.remove(new Integer(max));
-				sum -= max;
-			}
-		}
-		int fs = 0;
-		for(int s: setf) {
-			fs += s;
-		}
-		if (sum == fs){
-			return "Possible";
-		}
-		return "Impossible";
+		boolean dp[][] = new boolean[sum + 1][n + 1];
+        for (int i = 0; i < n; i++) {
+            dp[value[i]][1] = true;
+        }
+        for (int i = 0; i <= sum; i++) {
+            for (int j = 1; j <= n; j++) {
+                for (int k = 1; k <= j; k++) {
+                    if (i - value[k - 1] >= 0)
+                        dp[i][k] = dp[i][k] || dp[i - value[k - 1]][j - k];
+                }
+            }
+        }
+        if (dp[sum/2][n/2]) {
+            return "Possible";
+        }
+        return "Impossible";
 	}
 }
