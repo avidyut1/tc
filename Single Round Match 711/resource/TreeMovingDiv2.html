@@ -1,0 +1,57 @@
+<html><body bgcolor="#000000" text="#ffffff"><table><tr><td colspan="2"><h3>Problem Statement</h3></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td>You are given m trees.
+The trees are labeled T(0) through T(m-1).
+Each tree contains <b>n</b> vertices labeled 0 through <b>n</b>-1.
+
+A cyclic rotation of edges is the following procedure:
+<ol>
+<li>In each tree you choose one of its edges. Let e(i) be the edge chosen in the tree T(i).</li>
+<li>You remove the chosen edge from the tree, producing a graph with <b>n</b> vertices and only <b>n</b>-2 edges.</li>
+<li>For each valid i, you add the edge e(i) to the tree T(i+1). Also, you add the edge e(<b>n</b>-1) to the tree T(0). For example, if e(0) was an edge that connected vertices 4 and 7 in T(0), the graph T(1) will now get a new edge that connects its vertices 4 and 7.</li>
+<li>The procedure was successful if and only if each T(i) is a tree again.</li>
+</ol>
+
+Count all possible ways in which we can successfully perform a cyclic rotation of edges.
+Return that count modulo (10^9 + 7).
+
+You are given the int <b>n</b>.
+You are also given the int[]s <b>roots</b>, <b>a</b>, <b>b</b>, and <b>c</b>, each with m elements.
+These are inputs to a pseudorandom generator that will produce the trees.
+
+In order to generate the tree T(i), we will first generate a temporary sequence X:
+<pre>
+X[0] = c[i]
+for k = 1 to n-2:
+    X[k] = (a[i] * X[k - 1] + b[i]) modulo 1,000,000,007
+</pre>
+
+and then we use that sequence to generate the edges of the tree:
+<pre>
+for j = 0 to n-2:
+    u[j] = (roots[i] + j + 1) modulo n
+    v[j] = (roots[i] + (X[j] modulo (j + 1)) modulo n
+    add the edge between u[j] and v[j] to the tree T(i)
+</pre></td></tr><tr><td colspan="2"><h3>Definition</h3></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td>Class:</td><td>TreeMovingDiv2</td></tr><tr><td>Method:</td><td>count</td></tr><tr><td>Parameters:</td><td>int, int[], int[], int[], int[]</td></tr><tr><td>Returns:</td><td>int</td></tr><tr><td>Method signature:</td><td>int count(int n, int[] roots, int[] a, int[] b, int[] c)</td></tr><tr><td colspan="2">(be sure your method is public)</td></tr></table></td></tr><tr><td colspan="2"><h3>Limits</h3></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td>Time limit (s):</td><td>2.000</td></tr><tr><td>Memory limit (MB):</td><td>512</td></tr><tr><td>Stack limit (MB):</td><td>512</td></tr></table></td></tr><tr><td colspan="2"><h3>Notes</h3></td></tr><tr><td align="center" valign="top">-</td><td>The author's solution does not depend on any properties of the pseudorandom generator. It would solve any input of the allowed size within the given limits.</td></tr><tr><td colspan="2"><h3>Constraints</h3></td></tr><tr><td align="center" valign="top">-</td><td><b>n</b> will be between 2 and 50, inclusive.  </td></tr><tr><td align="center" valign="top">-</td><td><b>roots</b> will contain between 2 and 50 elements, inclusive.  </td></tr><tr><td align="center" valign="top">-</td><td><b>a</b> and <b>roots</b> will contain the same number of elements.  </td></tr><tr><td align="center" valign="top">-</td><td><b>b</b> and <b>roots</b> will contain the same number of elements.  </td></tr><tr><td align="center" valign="top">-</td><td><b>c</b> and <b>roots</b> will contain the same number of elements.  </td></tr><tr><td align="center" valign="top">-</td><td>Each element of <b>roots</b> will be between 0 and <b>n</b> - 1, inclusive.  </td></tr><tr><td align="center" valign="top">-</td><td>Each element of <b>a</b> will be between 1 and 1,000,000,006, inclusive.  </td></tr><tr><td align="center" valign="top">-</td><td>Each element of <b>b</b> will be between 0 and 1,000,000,006, inclusive.  </td></tr><tr><td align="center" valign="top">-</td><td>Each element of <b>c</b> will be between 0 and 1,000,000,006, inclusive.  </td></tr><tr><td colspan="2"><h3>Examples</h3></td></tr><tr><td align="center" nowrap="true">0)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>3</pre></td></tr><tr><td><pre>{0, 2}</pre></td></tr><tr><td><pre>{1, 2}</pre></td></tr><tr><td><pre>{1, 0}</pre></td></tr><tr><td><pre>{3, 5}</pre></td></tr></table></td></tr><tr><td><pre>Returns: 2</pre></td></tr><tr><td><table><tr><td colspan="2">
+There are two trees, each of them contains 3 vertices.
+The tree T(0) is generated as follows:
+<ol>
+<li>X[0] = c[0] = 3</li>
+<li>X[1] = (a[0] * X[0] + b[0]) modulo 1,000,000,007 = 4</li>
+<li>u[0] = (roots[0] + 1) modulo n = 1</li>
+<li>v[0] = (roots[0] + (X[0] modulo 1)) modulo n = 0</li>
+<li>u[1] = (roots[0] + 2) modulo n = 2</li>
+<li>v[1] = (roots[0] + (X[1] modulo 2)) modulo n = 0</li>
+</ol>
+Hence, the tree T(0) contains the edges 1-0 and 2-0.
+<p>
+The tree T(1) contains the edges 0-2 and 1-2.
+</p>
+There are two ways to do a successful cyclic rotation of edges:
+we can either choose the edge 0-2 in each tree, or we can choose the edge 0-1 in T(0) and the edge 1-2 in T(1).</td></tr></table></td></tr></table></td></tr><tr><td align="center" nowrap="true">1)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>3</pre></td></tr><tr><td><pre>{0, 0, 1}</pre></td></tr><tr><td><pre>{6, 1, 3}</pre></td></tr><tr><td><pre>{6, 5, 5}</pre></td></tr><tr><td><pre>{2, 5, 9}</pre></td></tr></table></td></tr><tr><td><pre>Returns: 2</pre></td></tr><tr><td><table><tr><td colspan="2"><p>
+T(0) contains edges 1-0 and 2-0.  
+</p>
+<p>
+T(1) contains edges 1-0 and 2-0.
+</p>
+<p>
+T(2) contains edges 2-1 and 0-1.
+</p></td></tr></table></td></tr></table></td></tr><tr><td align="center" nowrap="true">2)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>5</pre></td></tr><tr><td><pre>{0, 1, 1, 1, 2}</pre></td></tr><tr><td><pre>{7, 4, 7, 9, 2}</pre></td></tr><tr><td><pre>{8, 3, 9, 5, 3}</pre></td></tr><tr><td><pre>{6, 0, 1, 5, 9}</pre></td></tr></table></td></tr><tr><td><pre>Returns: 22</pre></td></tr><tr><td><table><tr><td colspan="2"></td></tr></table></td></tr></table></td></tr><tr><td align="center" nowrap="true">3)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>2</pre></td></tr><tr><td><pre>{1, 0, 0}</pre></td></tr><tr><td><pre>{122064284, 9662111, 120616497}</pre></td></tr><tr><td><pre>{20137061, 408976122, 494878172}</pre></td></tr><tr><td><pre>{242061783, 603049107, 805670429}</pre></td></tr></table></td></tr><tr><td><pre>Returns: 1</pre></td></tr><tr><td><table><tr><td colspan="2">Watch out for integer overflow when generating the temporary sequence X.</td></tr></table></td></tr></table></td></tr><tr><td align="center" nowrap="true">4)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>15</pre></td></tr><tr><td><pre>{11, 3, 13, 5, 0, 3, 0, 8, 9, 4, 9, 7, 5, 12, 12, 11, 12, 2, 6, 5, 13, 13, 11, 8, 14, 9, 2, 0, 3, 11, 10, 12, 10, 11, 11, 12, 13, 7, 12, 11, 2, 14, 8, 3, 6, 6, 4, 13, 5, 8}</pre></td></tr><tr><td><pre>{983816220, 620877501, 728957664, 719453482, 891241034, 959047323, 459235325, 188837384, 749336264, 40650017, 404049008, 121578182, 640967952, 444329307, 181115164, 697849277, 12923013, 711014676, 308063158, 403714366, 341206103, 674610097, 743172147, 27978413, 95548595, 93823839, 844476902, 863583697, 568069127, 618319911, 659846531, 341309147, 735202433, 531047579, 967335611, 311192666, 753647731, 36420180, 609571991, 208600401, 915548304, 926479460, 672275772, 545217041, 864561330, 32472050, 852336473, 144521601, 383750815, 616511468}</pre></td></tr><tr><td><pre>{715457951, 308091233, 686233659, 523365634, 260145657, 96581518, 754153775, 622990522, 78662953, 689973864, 609423534, 534351235, 56822117, 899080526, 236413795, 747521954, 249656307, 790813221, 238598034, 203856426, 170015231, 791645278, 991710627, 747864180, 331241135, 416320805, 820623220, 811261319, 154661650, 914880513, 270905767, 954448019, 261442212, 954262444, 293791600, 493225233, 67542211, 911866345, 567575019, 95716070, 410883122, 337767450, 375732581, 616839717, 416849487, 140196829, 200763187, 51759408, 992789421, 882490836}</pre></td></tr><tr><td><pre>{650915191, 363659051, 226659197, 706291662, 748630395, 163284394, 663006670, 2890697, 639793395, 728890798, 570088430, 967259303, 101778889, 249725396, 968816738, 276471315, 905010209, 467925249, 798793109, 857289233, 494026470, 476417587, 98570430, 596160845, 211373787, 188742439, 364805067, 757845257, 317224756, 74104796, 455729968, 78933290, 769895010, 476555278, 45379277, 957039727, 395817921, 447349376, 629724490, 287334171, 227424105, 603337884, 467060652, 254067677, 237332026, 976429932, 93075762, 960441433, 132935737, 671265490}</pre></td></tr></table></td></tr><tr><td><pre>Returns: 755767349</pre></td></tr><tr><td><table><tr><td colspan="2">Watch out for integer overflow while calculating the answer. </td></tr></table></td></tr></table></td></tr></table><p>This problem statement is the exclusive and proprietary property of TopCoder, Inc.  Any unauthorized use or reproduction of this information without the prior written consent of TopCoder, Inc. is strictly prohibited.  (c)2003, TopCoder, Inc.  All rights reserved.  </p></body></html>
